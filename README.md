@@ -1,4 +1,4 @@
-# VEIS API
+# VIES API
 [Created with ![heart](http://i.imgur.com/oXJmdtz.gif) in Poland by RapidDev](http://rapiddev.pl/)<br />
 Simple API to download information about a European entrepreneur using PHP
 
@@ -9,7 +9,7 @@ The basis of the code developed by [Eugen Mihailescu](https://github.com/eugenmi
 
 ## Function
 ```php
-function veis($vat)
+function vies($vat)
 {
 	$vat = preg_replace("/[^A-Za-z0-9?!]/",'',$vat);
 	$countryCode = substr($vat,0,2);
